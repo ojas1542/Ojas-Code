@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Calc.h"
+#include "CALC.h"
 
 
 using namespace std;

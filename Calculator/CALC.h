@@ -1,5 +1,6 @@
 #include <iostream>
-
+#ifndef CALC_H
+#define CALC_H
 using namespace std;
 
 class Operations {
@@ -12,3 +13,4 @@ class Operations {
     double newNum1;
     double newNum2;
   };
+#endif 
