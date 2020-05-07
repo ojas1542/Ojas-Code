@@ -1,7 +1,7 @@
 # Purpose 
 
 This program will find all primes between 0 and a positive number of the user's choice. It will also print if any of those primes are fibonacci, lucas or mersenne numbers. It will also print if those number have palidromes in either base 2, base 10, base 14 or base 31.
-Used BitVector ADT from asgn4.
+Used BitVectors
 # Building
 
 Typing "make" or "make all" will build the code.
