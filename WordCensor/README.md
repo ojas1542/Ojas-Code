@@ -1,6 +1,8 @@
 # Purpose 
 
 This program will find words from a file and will either say that they're forbidden or need translation. The words chosen by the filter and hashtable are based on reading two text files with words to censor.
+Uses two-phase verificaton for checking use of censored words. First phases uses a Bloomfilter built with BitVectors to efficiently check if word may be censored. Second phase confirms use by checking against a Hash Table.
+
 # Building
 
 Typing "make" or "make all" will build the code.
