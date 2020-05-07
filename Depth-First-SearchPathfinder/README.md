@@ -1,6 +1,7 @@
 # Purpose 
 
 This program will find all paths from node A to Z given all possible interconnecting edges. User must enter a program flag at the time of execution to select for undirected or directed graph, the matrix to be printed and input via either file or console. 
+Uses a basic Stack ADT.
 
 # Building
 
